@@ -6,11 +6,11 @@ import dev.langchain4j.model.vertexai.VertexAiChatModel;
 public class ChatPrompts {
     public static void main(String[] args) {
         VertexAiChatModel model = VertexAiChatModel.builder()
-                .endpoint("us-central1-aiplatform.googleapis.com:443")
-                .project("neat-vent-381323")
-                .location("us-central1")
-                .publisher("google")
-                .modelName("chat-bison@001")
+                .endpoint(Constants.GCP_AI_PLATFORM_URL)
+                .project(Constants.GCP_PROJECT_NAME)
+                .location(Constants.GCP_AI_LOCATION)
+                .publisher(Constants.GCP_MODEL_PUBLISHER)
+                .modelName(Constants.GCP_CHAT_MODEL)
                 .maxOutputTokens(400)
                 .maxRetries(3)
                 .build();

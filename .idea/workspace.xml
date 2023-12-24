@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747eb8ad-d496-4c72-9b3a-f8a0b1506f64" name="Changes" comment="" />
+    <list default="true" id="747eb8ad-d496-4c72-9b3a-f8a0b1506f64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/ChatPrompts_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/DocSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/TextPrompts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/TextPrompts_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/TextPrompts_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/TextPrompts_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/TextPrompts_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/test.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/palm/workshop/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/palm/workshop/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/palm/workshop/ChatPrompts.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/palm/workshop/ChatPrompts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/palm/workshop/HttpCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/palm/workshop/HttpCall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/HttpCall.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/palm/workshop/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/palm/workshop/ChatPrompts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/palm/workshop/ChatPrompts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attention-is-all-you-need.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/attention-is-all-you-need.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palm-workshop" beforeDir="false" afterPath="$PROJECT_DIR$/palm-workshop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palm-workshop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/palm-workshop/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,10 +59,50 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/satyaanumolu/POCs/palm-workshop"
+    "last_opened_file_path": "/Users/satyaanumolu/POCs/palm-workshop/app/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="palm.workshop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ChatPrompts_1">
+    <configuration name="ChatPrompts_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="palm.workshop.ChatPrompts_1" />
+      <module name="palm-workshop.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="palm.workshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="palm.workshop.DocSplitter" />
+      <module name="palm-workshop.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="palm.workshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpCall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="palm.workshop.HttpCall" />
       <module name="palm-workshop.app.main" />
@@ -57,6 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatPrompts_1" />
+        <item itemvalue="Application.DocSplitter" />
         <item itemvalue="Application.HttpCall" />
       </list>
     </recent_temporary>
@@ -82,5 +145,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/palm/workshop/ChatPrompts_1.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/palm/workshop/ChatPrompts_1.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

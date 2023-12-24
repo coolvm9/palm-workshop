@@ -28,6 +28,7 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'dev.langchain4j:langchain4j-vertex-ai:0.24.0'
+    implementation 'dev.langchain4j:langchain4j-elasticsearch:0.25.0'
     implementation 'dev.langchain4j:langchain4j:0.24.0'
 }
 
